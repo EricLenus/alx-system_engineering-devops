@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent chgrp staff root
+chown vincent chgrp staff ls -a
