@@ -1,2 +1,2 @@
-#!/bin/basuh
-if hello = guillaume chown betty
+#!/bin/bash
+chown -- from = guillaume betty hello
