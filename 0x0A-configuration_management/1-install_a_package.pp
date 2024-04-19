@@ -1,5 +1,5 @@
 #!usr/bin/pup
-# install puppet-lint -v 2.1.0
+# install a specific version of flask(2.1.0)
 
 package {'flask':
 	ensure => '2.1.0',
