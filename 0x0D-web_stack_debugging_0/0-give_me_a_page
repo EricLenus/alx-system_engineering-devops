@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Debugging webstack runnign on docker
+
+docker exec -it <container_id> /bin/bash
+cd /etc/apache2/sites-available || exit
+nano 000-default.conf
+service apache2 restart
+exit
